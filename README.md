@@ -17,4 +17,4 @@ NS api key env name: REACT_APP_NS_KEY
 Google maps api key env name: REACT_APP_G_KEY
 
 I migrated the contents of the original repository into this one, so if you are interested in the commit history see the original repsitory: 
-https://github.com/primolg/NS-Meetup
+https://github.com/primolg/NS-Meetup-original
