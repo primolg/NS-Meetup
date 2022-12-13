@@ -1,7 +1,7 @@
 NS Meetup.
 
-This is my application to plan meetup points in the NS public transit infrastructure.
-As a user you can plan trips between dutch train stations, and find meeting points, business, or public facilities in and around the given destination.
+This is my web application (designed for mobile use) to plan meetups in the NS public transit infrastructure.
+As a user you can plan trips between Dutch train stations, and find meeting points, business, or public facilities in and around the given destination.
 Once you've picked your trip and meeting point you can share this trip with a friend, where they can keep track of your trains arrival time and meetup point.
 
 design refrence:
