@@ -24,12 +24,6 @@ const HomePage = () => {
 
     const [errorMsg, setErrorMsg] = useState(false);
     
-    //Testing purposes, delete when done testing single trip features!! these gives the form a default trip search
-    if (!departureStation){
-        setDepartureStation("abcoude")
-        setArrivalStation("alkmaar")
-    }
-
     //object to be populated alongside station options in form with station codes 
     //and their full length name. Example: {"Amsterdam Centraal" : "ASD"}
     let stationCodes = {}

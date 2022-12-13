@@ -107,7 +107,7 @@ export function createLink (trip, singleLocation){
     const arrivalStation = trip.arrivalStationCode
     const locationName = singleLocation.name.split(" ").join(".");
     const locationCoordinates = singleLocation.lng + "+" + singleLocation.lat;
-    return "localhost:3000/" + arrivalStation + "=" + trainNumber + "=" + dateTime + "=" + locationName + "+" + locationCoordinates;
+    return "https://nsmeetup.netlify.app/" + arrivalStation + "=" + trainNumber + "=" + dateTime + "=" + locationName + "+" + locationCoordinates;
 }
 
 //parses link for tripview
@@ -151,4 +151,4 @@ export const nsApi = {
             'X-Host-Override': 'gateway.apiportal.ns.nl',
             'Ocp-Apim-Subscription-Key': process.env.REACT_APP_NS_KEY,
         }
-    }
+    };

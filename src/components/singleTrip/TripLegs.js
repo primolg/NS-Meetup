@@ -30,7 +30,7 @@ const TripLegs = ({tripLegs}) => {
                                                     return (
                                                         <div id="inbetween-station" key={tinyStation.name}>
                                                             <h5>{name}</h5>
-                                                            <h5>{dateToTime(tinyStation.plannedDepartureDateTime)}</h5>
+                                                            <h5>{dateToTime(tinyStation?.plannedDepartureDateTime ? tinyStation?.plannedDepartureDateTime : tinyStation.plannedArrivalDateTime)}</h5>
                                                         </div>
                                                         )
                                                     })}

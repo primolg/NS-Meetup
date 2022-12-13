@@ -4,7 +4,6 @@ import GoogleMapReact from 'google-map-react'
 import LocationPin from "./LocationPin";
 
 const Map = ({location, defaultZoom}) => {
-    
     return (
         <div className="map" id={location.address}>
             <div className="google-map">
