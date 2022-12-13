@@ -6,13 +6,9 @@ Once you've picked your trip and meeting point you can share this trip with a fr
 
 
 design refrence:
-
 https://www.figma.com/file/kQCIIG8BBR0zBS4HcNcVZP/NS-Reis-Planner?node-id=0%3A1&t=9jtbAfF9LabSTScJ-1
 
-
-
 Recources for developers:
-
 In the project directory, you can run `npm start` to run the application.
 
 Api keys nessecary to run this project:
