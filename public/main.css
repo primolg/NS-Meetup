@@ -390,12 +390,15 @@
   #trip-view #travel-info {
     margin-top: 7vh;
     width: 100%;
+    color: white;
   }
   #trip-view #travel-info h3 {
     font-weight: 400;
+    color: white;
   }
   #trip-view #travel-info .emph-date {
     font-weight: 600;
+    color: white;
   }
   #trip-view .map {
     margin-top: 10px;
@@ -435,3 +438,6 @@
     font-weight: 600;
   }
   
+  #google-link{
+    color: white;
+  }

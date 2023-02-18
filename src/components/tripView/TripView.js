@@ -75,7 +75,7 @@ const TripView = () => {
         </div>
     ) : (
         <div id="loading-wheel">
-                    {!errorMsg ? <TailSpin stroke="#062655" strokeWidth="2" /> : "error encountered, please try again"}
+                    {!errorMsg ? <TailSpin stroke="white" strokeWidth="2" /> : "error encountered, please try again"}
         </div>
     )
 };
