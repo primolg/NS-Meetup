@@ -75,8 +75,9 @@ const HomePage = () => {
     if (allStations){
         return (
             <div id="train-planner">
+                {/* <div id="right-side"></div> */}
                 <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/react-datepicker/2.14.1/react-datepicker.min.css" />
-                <div>
+                <div id="planner">
                     <div id="form">
                         <div id="stations-and-swap">
                             <div id="stations">
@@ -134,6 +135,7 @@ const HomePage = () => {
                         <></>
                     }
                 </div>
+                {/* <div id="left-side"></div> */}
             </div>   
         );
     } else {
